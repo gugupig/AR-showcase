@@ -1,0 +1,4 @@
+*.tif filter=lfs diff=lfs merge=lfs -text
+*.unity3d filter=lfs diff=lfs merge=lfs -text
+*.apk filter=lfs diff=lfs merge=lfs -text
+8f2eee7cb4ac652abfc083ca2d29c10c filter=lfs diff=lfs merge=lfs -text

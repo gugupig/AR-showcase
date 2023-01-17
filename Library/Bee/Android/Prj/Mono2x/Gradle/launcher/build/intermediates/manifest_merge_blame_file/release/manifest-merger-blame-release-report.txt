@@ -1,0 +1,189 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.nreal.ARtest"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="0.2" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="29"
+9-->C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:106-134
+18
+19    <uses-permission android:name="android.permission.BLUETOOTH" />
+19-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:5-68
+19-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:22-65
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:5-65
+20-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:22-62
+21    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+21-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:5-71
+21-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:22-68
+22
+23    <uses-feature android:glEsVersion="0x00030000" />
+23-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:25:5-54
+23-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:25:19-51
+24
+25    <uses-permission android:name="android.permission.INTERNET" />
+25-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:5-67
+25-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:22-64
+26    <uses-permission android:name="android.permission.VIBRATE" />
+26-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:28:5-66
+26-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:28:22-63
+27    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+27-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:29:5-79
+27-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:29:22-76
+28    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+28-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:5-81
+28-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:22-78
+29
+30    <uses-feature
+30-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:5-34:36
+31        android:name="android.hardware.touchscreen"
+31-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:9-52
+32        android:required="false" />
+32-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:34:9-33
+33    <uses-feature
+33-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:5-37:36
+34        android:name="android.hardware.touchscreen.multitouch"
+34-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:9-63
+35        android:required="false" />
+35-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:9-33
+36    <uses-feature
+36-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:38:5-40:36
+37        android:name="android.hardware.touchscreen.multitouch.distinct"
+37-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:9-72
+38        android:required="false" />
+38-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:9-33
+39
+40    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+40-->[:nrunityandroidpermission:] C:\Users\Kurros\.gradle\caches\transforms-2\files-2.1\b0a94ddee91b40dbe508e517c9f9563d\nrunityandroidpermission\AndroidManifest.xml:12:5-77
+40-->[:nrunityandroidpermission:] C:\Users\Kurros\.gradle\caches\transforms-2\files-2.1\b0a94ddee91b40dbe508e517c9f9563d\nrunityandroidpermission\AndroidManifest.xml:12:22-74
+41
+42    <queries>
+42-->[:nr_api:] C:\Users\Kurros\.gradle\caches\transforms-2\files-2.1\ba8db0514a069af09bdfa58f9fb0b009\nr_api\AndroidManifest.xml:11:5-15:15
+43        <intent>
+43-->[:nr_api:] C:\Users\Kurros\.gradle\caches\transforms-2\files-2.1\ba8db0514a069af09bdfa58f9fb0b009\nr_api\AndroidManifest.xml:12:9-14:18
+44            <action android:name="ai.nreal.nrsdk.network.type.server" />
+44-->[:nr_api:] C:\Users\Kurros\.gradle\caches\transforms-2\files-2.1\ba8db0514a069af09bdfa58f9fb0b009\nr_api\AndroidManifest.xml:13:13-73
+44-->[:nr_api:] C:\Users\Kurros\.gradle\caches\transforms-2\files-2.1\ba8db0514a069af09bdfa58f9fb0b009\nr_api\AndroidManifest.xml:13:21-70
+45        </intent>
+46    </queries>
+47
+48    <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS" />
+48-->[:nr_api:] C:\Users\Kurros\.gradle\caches\transforms-2\files-2.1\ba8db0514a069af09bdfa58f9fb0b009\nr_api\AndroidManifest.xml:17:5-85
+48-->[:nr_api:] C:\Users\Kurros\.gradle\caches\transforms-2\files-2.1\ba8db0514a069af09bdfa58f9fb0b009\nr_api\AndroidManifest.xml:17:22-82
+49
+50    <application
+50-->C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-83
+51        android:extractNativeLibs="true"
+51-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:43:9-41
+52        android:icon="@mipmap/app_icon"
+52-->C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
+53        android:label="@string/app_name"
+53-->C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
+54        android:theme="@style/UnityThemeSelector" >
+54-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:46:9-50
+55        <activity
+55-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:9-63:20
+56            android:name="com.unity3d.player.UnityPlayerActivity"
+56-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:48:13-66
+57            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+57-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:49:13-194
+58            android:hardwareAccelerated="false"
+58-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:50:13-48
+59            android:launchMode="singleTask"
+59-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:51:13-44
+60            android:resizeableActivity="false"
+60-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:52:13-47
+61            android:screenOrientation="portrait" >
+61-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:53:13-49
+62            <intent-filter>
+62-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:13-58:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:17-69
+63-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:17-77
+65-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:27-74
+66            </intent-filter>
+67
+68            <meta-data
+68-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:60:13-62:40
+69                android:name="android.notch_support"
+69-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:17-53
+70                android:value="true" />
+70-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:17-37
+71        </activity>
+72
+73        <meta-data
+73-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:65:9-67:36
+74            android:name="nreal_sdk"
+74-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:66:13-37
+75            android:value="true" />
+75-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:67:13-33
+76        <meta-data
+76-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:68:9-70:51
+77            android:name="com.nreal.supportDevices"
+77-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:69:13-52
+78            android:value="NrealLight|NrealAir" />
+78-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:70:13-48
+79        <meta-data
+79-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:71:9-73:33
+80            android:name="unity.splash-mode"
+80-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:72:13-45
+81            android:value="0" />
+81-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:73:13-30
+82        <meta-data
+82-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:74:9-76:36
+83            android:name="unity.splash-enable"
+83-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:75:13-47
+84            android:value="True" />
+84-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:76:13-33
+85        <meta-data
+85-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:77:9-79:36
+86            android:name="unity.launch-fullscreen"
+86-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:78:13-51
+87            android:value="True" />
+87-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:79:13-33
+88        <meta-data
+88-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:80:9-82:37
+89            android:name="unity.allow-resizable-window"
+89-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:81:13-56
+90            android:value="False" />
+90-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:82:13-34
+91        <meta-data
+91-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:83:9-85:50
+92            android:name="notch.config"
+92-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:84:13-40
+93            android:value="portrait|landscape" />
+93-->[:unityLibrary] C:\Users\Kurros\My project\New Unity Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:85:13-47
+94
+95        <service
+95-->[:nrunityandroidpermission:] C:\Users\Kurros\.gradle\caches\transforms-2\files-2.1\b0a94ddee91b40dbe508e517c9f9563d\nrunityandroidpermission\AndroidManifest.xml:15:9-19:63
+96            android:name="ai.nreal.sdk.MediaProjectionService"
+96-->[:nrunityandroidpermission:] C:\Users\Kurros\.gradle\caches\transforms-2\files-2.1\b0a94ddee91b40dbe508e517c9f9563d\nrunityandroidpermission\AndroidManifest.xml:16:13-63
+97            android:enabled="true"
+97-->[:nrunityandroidpermission:] C:\Users\Kurros\.gradle\caches\transforms-2\files-2.1\b0a94ddee91b40dbe508e517c9f9563d\nrunityandroidpermission\AndroidManifest.xml:17:13-35
+98            android:exported="true"
+98-->[:nrunityandroidpermission:] C:\Users\Kurros\.gradle\caches\transforms-2\files-2.1\b0a94ddee91b40dbe508e517c9f9563d\nrunityandroidpermission\AndroidManifest.xml:18:13-36
+99            android:foregroundServiceType="mediaProjection" />
+99-->[:nrunityandroidpermission:] C:\Users\Kurros\.gradle\caches\transforms-2\files-2.1\b0a94ddee91b40dbe508e517c9f9563d\nrunityandroidpermission\AndroidManifest.xml:19:13-60
+100    </application>
+101
+102</manifest>
